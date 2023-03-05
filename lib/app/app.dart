@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 class MyApp extends StatefulWidget {
 
+  int appState = 0;
+
   MyApp._internal();   // private named constructor
 
   static final MyApp instance = MyApp._internal(); // single instance -- singleton
