@@ -18,6 +18,7 @@ class Routes{
   static const String mainRoute = "/main";
   static const String storeDetailsRoute = "/storeDetails";
 }
+
 class RouteGenerator{
    static Route<dynamic> getRoute(RouteSettings routeSettings){
      switch(routeSettings.name){
